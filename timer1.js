@@ -23,7 +23,7 @@ const timer = (array) => {
     }
 
     setTimeout(() => {
-      process.stdout.write('\x07\n');
+      process.stdout.write(`${num} seconds have passed \x07\n`);
     }, num * 1000);
   }
 }
